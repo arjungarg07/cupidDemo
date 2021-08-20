@@ -10,7 +10,8 @@ let flightServiceDocs = getAsyncApiExamples();
 
 (async()=>{
     try{
-        const output = await appRelationsDiscovery.getRelations(flightServiceDocs,{syntax:'reactFlow'});
+        // const output = await appRelationsDiscovery.getRelations(flightServiceDocs);
+        const output = await appRelationsDiscovery.getRelations(flightServiceDocs, {syntax: 'mermaid'});
         console.log(output);
     } catch(err){
         console.log(err);
