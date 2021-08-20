@@ -23,4 +23,4 @@ channels:
 components:
   messages:
     flightStatus:
-      $ref: './test/examples/common/messages/flight_status.yaml'
+      $ref: './examples/common/messages/flight_status.yaml'
